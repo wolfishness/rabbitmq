@@ -1,0 +1,85 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+# Java
+*.class
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+out/
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# svn
+.svn/
+
+scandir/
+rebel.xml
+
+#lilei environment
+dep2.sh
+
+#log
+*.log
+rabbitmq_consumer/.gitignore
+rabbitmq_consumer/.mvn/
+rabbitmq_consumer/mvnw
+rabbitmq_consumer/mvnw.cmd
+rabbitmq_consumer/pom.xml
+rabbitmq_consumer/src/
+rabbitmq_producer/.gitignore
+rabbitmq_producer/.mvn/
+rabbitmq_producer/mvnw
+rabbitmq_producer/mvnw.cmd
+rabbitmq_producer/pom.xml
+rabbitmq_producer/src/
+spring-boot-rabbit-test/.gitignore
+spring-boot-rabbit-test/.mvn/
+spring-boot-rabbit-test/mvnw
+spring-boot-rabbit-test/mvnw.cmd
+spring-boot-rabbit-test/pom.xml
+spring-boot-rabbit-test/src/
+springboot-rabbit-receiver/.gitignore
+springboot-rabbit-receiver/.mvn/
+springboot-rabbit-receiver/mvnw
+springboot-rabbit-receiver/mvnw.cmd
+springboot-rabbit-receiver/pom.xml
+springboot-rabbit-receiver/src/
+springboot-rabbit-sender/.gitignore
+springboot-rabbit-sender/.mvn/
+springboot-rabbit-sender/mvnw
+springboot-rabbit-sender/mvnw.cmd
+springboot-rabbit-sender/pom.xml
+springboot-rabbit-sender/src/
+springboot-rabbitmq-reply/.gitignore
+springboot-rabbitmq-reply/.mvn/
+springboot-rabbitmq-reply/mvnw
+springboot-rabbitmq-reply/mvnw.cmd
+springboot-rabbitmq-reply/pom.xml
+springboot-rabbitmq-reply/src/
+springboot-rabbitmq-test/.gitignore
+springboot-rabbitmq-test/.mvn/
+springboot-rabbitmq-test/mvnw
+springboot-rabbitmq-test/mvnw.cmd
+springboot-rabbitmq-test/pom.xml
+springboot-rabbitmq-test/src/
+springboot-rabbitmq-test1/.gitignore
+springboot-rabbitmq-test1/.mvn/
+springboot-rabbitmq-test1/mvnw
+springboot-rabbitmq-test1/mvnw.cmd
+springboot-rabbitmq-test1/pom.xml
+springboot-rabbitmq-test1/src/
