@@ -1,4 +1,4 @@
-package com.ljs.producer.sender;
+package com.ljs.producer.sender.hello;
 
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,14 +14,14 @@ import java.util.Date;
  * @Version: 1.0.0
  */
 @Component
-public class HelloSender {
+public class HelloSender2 {
 
     @Autowired
     private AmqpTemplate rabbitTemplate;
 
     public void send(int i) {
-        String context = "hello " + new Date();
-        System.out.println("Sender : " + context);
+        String context = "hello 2 " + new Date();
+        System.out.println("Sender2 : " + context);
         this.rabbitTemplate.convertAndSend("hello", context + "  " + i);
     }
 

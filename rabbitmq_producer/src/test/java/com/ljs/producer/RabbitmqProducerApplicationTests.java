@@ -1,7 +1,7 @@
 package com.ljs.producer;
 
-import com.ljs.producer.sender.HelloSender;
-import com.ljs.producer.sender.HelloSender2;
+import com.ljs.producer.sender.hello.HelloSender;
+import com.ljs.producer.sender.hello.HelloSender2;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

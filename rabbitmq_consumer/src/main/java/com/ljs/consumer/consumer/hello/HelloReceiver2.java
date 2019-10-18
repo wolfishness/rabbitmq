@@ -1,4 +1,4 @@
-package com.ljs.consumer.consumer;
+package com.ljs.consumer.consumer.hello;
 
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;

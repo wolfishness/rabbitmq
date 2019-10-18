@@ -1,4 +1,4 @@
-package com.ljs.producer.Config;
+package com.ljs.producer.config.hello;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;

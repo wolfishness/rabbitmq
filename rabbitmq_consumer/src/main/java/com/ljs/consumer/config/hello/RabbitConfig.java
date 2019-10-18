@@ -1,4 +1,4 @@
-package com.ljs.consumer.config;
+package com.ljs.consumer.config.hello;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
