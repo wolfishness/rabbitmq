@@ -4,3 +4,10 @@ spring:
     port: 5672
     username: admin
     password: admin
+
+    listener:
+      retry:
+        #    重试次数
+        max-attempts: 3
+        #   开启重试机制
+        enabled: true
