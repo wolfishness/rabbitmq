@@ -14,7 +14,15 @@ import javax.annotation.PostConstruct;
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
-
+/**
+ * 消息发送者
+ *
+ * @ClassName: ReplySender
+ * @Description: TODO
+ * @Author: lujinshan
+ * @Date: 2019/10/30 15:24
+ * @Version: 1.0.0
+ */
 @Component
 public class ReplySender {
 
@@ -22,10 +30,11 @@ public class ReplySender {
 
 	@Autowired
 	private RabbitTemplate rabbitTemplate;
-//	@Value("${java.rabbitmq.send.service.exchange}")
+
 	private static final String SEND_EXCHANGE = "test.hello";
-//	@Value("${java.rabbitmq.send.service.routingKey}")
+
 	private static final String ROUTING_KEY = "direct_routing_key";
+
 	/**
 	 * demo级别，先本地缓存,真正实现可考虑用redis
 	 * 如果是放到redis中，有可能exchange一直不给生产者反馈{比如rabbitmq挂了,这种只能重启rabbitmq}
